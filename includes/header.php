@@ -14,9 +14,10 @@
     <!-- Javascript -->
     
 </head>
-<body>
+<body> <!-- Container closes in footer -->
 
 <?php
 include("navigation.php");
 ?>
 
+<main class="main-content"> <!-- Container closes in footer -->

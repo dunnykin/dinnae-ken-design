@@ -1,4 +1,4 @@
-<div>
+<div class="nav-bar">
     <ul>
         <li><a href="/dinnae-ken-design/php/index.php">Home</a></li>
         <li><a href="/dinnae-ken-design/php/web-design.php">Web Design</a></li>

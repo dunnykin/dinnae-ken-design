@@ -1,12 +1,89 @@
 :root {
-    --bg-primary: #fff;
-    --bg-secondary: #666;
+    --color1: #202140;
+    --color2: #35648C;
+    --color3: #F2EA7E;
+    --color4: #F2B263;
+    --color5: #F28963;
+    
+    --bg-primary: var(--color3);
+    --bg-secondary: var(--color4);
+    --bg-tertiary: var(--color5);
 
-    --txt-primary: #222;
-    --txt-secondary: #ddd;
+    --txt-dark: var(--color1);
+    --txt-light: #ddd;
 }
 
 body {
     background-color: var(--bg-primary);
-    color: var(--txt-primary);
+    color: var(--txt-dark);
+    font-family: 'Poppins', sans-serif;
 }
+
+a { text-decoration: none; }
+ul { list-style-type: none; }
+ul li { display: inline; }
+
+/*** NAVIGATION ***/
+.nav-bar {
+    background-color: var(--color1);
+
+    display: flex;
+    justify-content: center;
+}
+
+.nav-bar a {
+    color: var(--txt-light);
+}
+/*** NAVIGATION END ***/
+
+.main-content {
+    margin: 0 auto;
+    padding: 0 10%;
+}
+
+/*** FOOTER ***/
+.footer {
+    background-color: var(--color2);
+
+    display: flex;
+    justify-content: center;
+}
+
+.footer a {
+    color: var(--txt-light);
+}
+
+/*** FOOTER END ***/
+
+/*** INDEX ***/
+#home-wrapper {
+    display: grid;
+    grid-template-areas:
+        "hero"
+        "services";        
+}
+
+.hero {
+    background-color: var(--bg-secondary);
+
+    display: grid;
+    grid-area: "hero";
+}
+
+.services {
+    background-color: var(--bg-tertiary);
+
+    display: grid;
+    grid-area: "services";
+    grid-template-columns: repeat(4, auto);
+
+}
+
+.services ul li {
+    display: inline;
+}
+
+.services i {
+    font-size: 2em;
+}
+/*** INDEX END ***/

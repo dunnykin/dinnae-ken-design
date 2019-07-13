@@ -26,13 +26,26 @@ ul li { display: inline; }
 /*** NAVIGATION ***/
 .nav-bar {
     background-color: var(--color1);
+}
 
+.nav-bar ul {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2% 10%;
+}
+
+.nav-bar ul li {
+    display: flex;
+    justify-self: center;
 }
 
 .nav-bar a {
     color: var(--txt-light);
+}
+
+.logo {
+    border-radius: 50%;
 }
 /*** NAVIGATION END ***/
 

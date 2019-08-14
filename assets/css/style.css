@@ -4,6 +4,12 @@
     --color3: #F2EA7E;
     --color4: #F2B263;
     --color5: #F28963;
+
+    --alt1: #3D5A80;
+    --alt2: #98C1D9;
+    --alt3: #E0FBFC;
+    --alt4: #EE6C4D;
+    --alt5: #293241;
     
     --bg-primary: var(--color3);
     --bg-secondary: var(--color4);
@@ -22,6 +28,35 @@ body {
 a { text-decoration: none; }
 ul { list-style-type: none; }
 ul li { display: inline; }
+
+/*** LOGO ***/
+.logo {
+    height: 100px;
+    width: auto;
+    margin: 10px;
+}
+
+.logo-screen {
+    fill: var(--alt2);
+}
+
+.logo-qmark {
+    fill: var(--color5);
+    stroke: var(--color1);
+    stroke-miterlimit: 10;
+    stroke-width: 4px;
+}
+
+.logo-txt-dinnaeken {
+    fill: var(--alt2);
+    stroke: var(--alt4);
+    stroke-miterlimit: 10;
+}
+
+.logo-txt-design {
+    fill: var(--alt4);
+}
+/*** LOGO END ***/
 
 /*** NAVIGATION ***/
 .nav-bar {
@@ -87,3 +122,4 @@ ul li { display: inline; }
     font-size: 2em;
 }
 /*** INDEX END ***/
+

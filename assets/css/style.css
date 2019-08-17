@@ -31,9 +31,16 @@ ul li { display: inline; }
 
 /*** LOGO ***/
 .logo {
-    height: 100px;
+    /* height: 100px;
     width: auto;
-    margin: 10px;
+    margin: 10px; */
+}
+
+.logo-icon {
+    grid-column-start: icon-start;
+    grid-column-end: nav-start;
+    grid-row-start: logo-top;
+    grid-row-end: nav-bottom;
 }
 
 .logo-screen {
@@ -47,14 +54,23 @@ ul li { display: inline; }
     stroke-width: 4px;
 }
 
+.logo-text {
+    grid-column-start: nav-start;
+    grid-column-end: nav-end;
+    grid-row-start: logo-top;
+    grid-row-end: nav-top;
+}
+
 .logo-txt-dinnaeken {
     fill: var(--alt2);
-    stroke: var(--alt4);
-    stroke-miterlimit: 10;
+    /* stroke: var(--alt4);
+    stroke-miterlimit: 10; */
+    filter:url(#extra-glow);
 }
 
 .logo-txt-design {
     fill: var(--alt4);
+    filter:url(#glow);
 }
 /*** LOGO END ***/
 
@@ -62,8 +78,18 @@ ul li { display: inline; }
 .nav-bar {
     background-color: var(--color1);
 
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
+    display: grid;
+    grid-template-columns: [icon-start] 25% [nav-start] 75% [nav-end];
+    grid-template-rows: [logo-top] 75% [nav-top] 25% [nav-bottom];
+}
+
+.nav-list {
+    grid-column-start: nav-start;
+    grid-column-end: nav-end;
+    grid-row-start: nav-top;
+    grid-row-end: nav-bottom;
 }
 
 .nav-bar a {

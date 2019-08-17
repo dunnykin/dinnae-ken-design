@@ -29,11 +29,16 @@ a { text-decoration: none; }
 ul { list-style-type: none; }
 ul li { display: inline; }
 
+svg {
+    max-height: 100%;
+    max-width: 100%;
+}
+
 /*** LOGO ***/
 .logo {
-    /* height: 100px;
+    height: 100px;
     width: auto;
-    margin: 10px; */
+    margin: 10px;
 }
 
 .logo-icon {
@@ -41,6 +46,14 @@ ul li { display: inline; }
     grid-column-end: nav-start;
     grid-row-start: logo-top;
     grid-row-end: nav-bottom;
+
+    justify-self: end;
+    margin: 10px 0;
+}
+
+.logo-icon svg {
+    height: 150px;
+    width: auto;
 }
 
 .logo-screen {
@@ -59,6 +72,13 @@ ul li { display: inline; }
     grid-column-end: nav-end;
     grid-row-start: logo-top;
     grid-row-end: nav-top;
+
+    margin: 5px 0 0 0;
+}
+
+.logo-text svg {
+    height: 120px;
+    width: auto;
 }
 
 .logo-txt-dinnaeken {
@@ -75,11 +95,15 @@ ul li { display: inline; }
 /*** LOGO END ***/
 
 /*** NAVIGATION ***/
-.nav-bar {
+header {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0 10%;
     background-color: var(--color1);
+}
 
-    /* display: flex;
-    justify-content: center; */
+.nav-bar {
     display: grid;
     grid-template-columns: [icon-start] 25% [nav-start] 75% [nav-end];
     grid-template-rows: [logo-top] 75% [nav-top] 25% [nav-bottom];
@@ -90,10 +114,22 @@ ul li { display: inline; }
     grid-column-end: nav-end;
     grid-row-start: nav-top;
     grid-row-end: nav-bottom;
+    
+    align-content: center;
 }
 
-.nav-bar a {
+.nav-list ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-list a {
     color: var(--txt-light);
+}
+
+.nav-list a:hover {
+    border-bottom: 10px solid var(--alt4);
+    font-style: italic;
 }
 /*** NAVIGATION END ***/
 
@@ -148,4 +184,3 @@ ul li { display: inline; }
     font-size: 2em;
 }
 /*** INDEX END ***/
-

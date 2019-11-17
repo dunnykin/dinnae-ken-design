@@ -11,12 +11,16 @@
     --alt4: #EE6C4D;
     --alt5: #293241;
     
-    --bg-primary: var(--color3);
+    --bg-primary: var(--alt3);
     --bg-secondary: var(--color4);
     --bg-tertiary: var(--color5);
 
     --txt-dark: var(--color1);
     --txt-light: #ddd;
+
+    --wee: 500px;
+    --mid: 900px;
+    --big: 1200px;
 }
 
 body {
@@ -33,6 +37,57 @@ svg {
     max-height: 100%;
     max-width: 100%;
 }
+
+/*** NAVIGATION ***/
+header {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0 10%;
+    background-color: var(--color1);
+}
+
+@media screen and (max-width: 900px) {
+    header {
+        padding: 0 5%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    header {
+        padding: 0;
+    }
+}
+
+.nav-bar {
+    display: grid;
+    grid-template-columns: [icon-start] 25% [nav-start] 75% [nav-end];
+    grid-template-rows: [logo-top] 75% [nav-top] 25% [nav-bottom];
+}
+
+.nav-list {
+    grid-column-start: nav-start;
+    grid-column-end: nav-end;
+    grid-row-start: nav-top;
+    grid-row-end: nav-bottom;
+    
+    align-content: center;
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-list a {
+    color: var(--txt-light);
+}
+
+.nav-list a:hover {
+    border-bottom: 10px solid var(--alt4);
+    font-style: italic;
+}
+/*** NAVIGATION END ***/
 
 /*** LOGO ***/
 .logo {
@@ -93,45 +148,6 @@ svg {
     filter:url(#glow);
 }
 /*** LOGO END ***/
-
-/*** NAVIGATION ***/
-header {
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    padding: 0 10%;
-    background-color: var(--color1);
-}
-
-.nav-bar {
-    display: grid;
-    grid-template-columns: [icon-start] 25% [nav-start] 75% [nav-end];
-    grid-template-rows: [logo-top] 75% [nav-top] 25% [nav-bottom];
-}
-
-.nav-list {
-    grid-column-start: nav-start;
-    grid-column-end: nav-end;
-    grid-row-start: nav-top;
-    grid-row-end: nav-bottom;
-    
-    align-content: center;
-}
-
-.nav-list ul {
-    display: flex;
-    justify-content: space-between;
-}
-
-.nav-list a {
-    color: var(--txt-light);
-}
-
-.nav-list a:hover {
-    border-bottom: 10px solid var(--alt4);
-    font-style: italic;
-}
-/*** NAVIGATION END ***/
 
 .main-content {
     margin: 0 auto;

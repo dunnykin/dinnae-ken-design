@@ -16,10 +16,10 @@
     </div> -->
     <secion class="nav-wrapper">
         <a class="nav-icon" href="/dinnae-ken-design/php/index.php">
-            <?php echo file_get_contents("../assets/images/dinnaeken-design-logo.svg"); ?>
+            <?php echo file_get_contents("../assets/images/svg/dinnaeken-design-logo.svg"); ?>
         </a>
         <a class="nav-logo" href="/dinnae-ken-design/php/index.php">
-            <?php echo file_get_contents("../assets/images/dinnaeken-design-txt.svg"); ?>
+            <?php echo file_get_contents("../assets/images/svg/dinnaeken-design-txt.svg"); ?>
         </a>
         <div class="nav-link design">design</div>
         <div class="nav-link game-dev">game dev</div>

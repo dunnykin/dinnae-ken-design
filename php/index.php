@@ -42,12 +42,33 @@ include("../includes/header.php");
     </section>
 
     <section class="gallery">
+        <div class="gallery-item wide">
+            <div class="gallery-item-info">
+                <h2>The Owl</h2>
+                <h3>3D Animation</h3>
+            </div>
+            <img src="../assets/images/the-owl-003.jpeg" />
+        </div>
+        <div class="gallery-item tall">
+            <div class="gallery-item-info">
+                <h2>Dr Bones</h2>
+                <h3>Game Development</h3>
+            </div>
+            <img src="../assets/images/drbones01.PNG" />
+        </div>
         <div class="gallery-item medium">
             <div class="gallery-item-info">
                 <h2>Untitled Retail Sim</h2>
                 <h3>Game Development</h3>
             </div>
             <img src="../assets/images/retailsim02.PNG">
+        </div>
+        <div class="gallery-item small">
+            <div class="gallery-item-info">
+                <h2>Social Menace</h2>
+                <h3>Game Development</h3>
+            </div>
+            <img src="../assets/images/socialmenace02.PNG" />
         </div>
         <div class="gallery-item large">
             <div class="gallery-item-info">
@@ -62,28 +83,7 @@ include("../includes/header.php");
                 <h3>3D Animation</h3>
             </div>
             <img src="../assets/images/frame0000379.jpg" />
-        </div>
-        <div class="gallery-item small">
-            <div class="gallery-item-info">
-                <h2>Social Menace</h2>
-                <h3>Game Development</h3>
-            </div>
-            <img src="../assets/images/socialmenace02.PNG" />
-        </div>
-        <div class="gallery-item tall">
-            <div class="gallery-item-info">
-                <h2>Dr Bones</h2>
-                <h3>Game Development</h3>
-            </div>
-            <img src="../assets/images/drbones01.PNG" />
-        </div>
-        <div class="gallery-item wide">
-            <div class="gallery-item-info">
-                <h2>The Owl</h2>
-                <h3>3D Animation</h3>
-            </div>
-            <img src="../assets/images/the-owl-003.jpeg" />
-        </div>
+        </div> 
     </section>
 
 </div>

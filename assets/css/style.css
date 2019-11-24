@@ -54,6 +54,11 @@ p {
     font-size: 1em;
 }
 
+.page-title {
+    margin: 20px;
+    text-align: center;
+}
+
 /*** COMPONENTS ***/
 .btn {
     background-color: var(--color1);
@@ -279,6 +284,11 @@ header {
 
 .games-logo-screen {
     fill: var(--alt2);
+}
+
+.logo-games {
+    fill:#ee6c4d;
+    display: none;
 }
 
 @media only screen and (max-width: 600px)
@@ -541,3 +551,186 @@ header {
 }
 /*** CONTACTS END ***/
 
+
+
+/*** PRODUCTS ***/
+
+.product-container {
+  width: 100%;
+  height: 400px;
+  position: relative;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  /* background: url("https://i.pinimg.com/564x/6f/5a/b1/6f5ab1b470beeeeaf285bb451c63ac8f.jpg"); */
+  background-color: var(--color5);
+  background-size: cover;
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 5px #000;
+  box-shadow: 0 0 5px #000;
+}
+
+.product-container img {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    float: left;
+}
+
+.product-overlay {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 2fr 2fr 1fr;
+  background: var(--color3);
+  color: var(--color1);
+  opacity: 0;
+  transition: all 0.5s;
+  position: absolute;
+}
+
+.product {
+  padding-left: 20px;
+  letter-spacing: 3px;
+}
+
+.product-header {
+    margin: 10px 0 0 0;
+}
+
+.product-title {
+  font-size: 30px;
+  line-height: 40px;
+  transform: translateY(40px);
+  transition: all 0.7s;
+}
+
+.product-title hr {
+  display: block;
+  width: 0;
+  border: none;
+  border-bottom: solid 2px var(--color1);
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+  transition: all 0.5s;
+}
+
+.product-list {
+  font-size: 1.2em;
+  line-height: 1;
+  font-weight: bold;
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.7s;
+  letter-spacing: 1;
+  margin: 0 0 0 10px;
+}
+
+.product-footer {
+  font-size: 1em;
+  opacity: 0;
+  letter-spacing: 1px;
+  font-family: "Lato", sans-serif;
+  transform: translateY(40px);
+  transition: all 0.7s;
+  position: absolute;
+  bottom: 10px;
+}
+
+.product-footer span {
+  margin-left: 10px;
+}
+
+.product-container:hover .product-overlay {
+  opacity: 0.9;
+}
+.product-container:hover .product-overlay .product-title {
+  transform: translateY(0px);
+}
+.product-container:hover .product-overlay hr {
+  width: 75px;
+  transition-delay: 0.4s;
+}
+.product-container:hover .product-overlay .product-list {
+  transform: translateY(0px);
+  transition-delay: 0.3s;
+  opacity: 1;
+}
+.product-container:hover .product-overlay .product-footer {
+  transform: translateY(0px);
+  transition-delay: 0.6s;
+  opacity: 1;
+}
+
+/*** PRODUCTS END ***/
+
+/*** 3D HOME ***/
+.animation-products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+    .animation-products {
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+
+    .animation-products > .first-product {
+        grid-column: span 2;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .animation-products {
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px;
+    }
+
+    .animation-products > .first-product {
+        grid-column: span 1;
+    }
+}
+/*** 3D HOME END ***/
+
+/*** GAME DEV HOME ***/
+.gamedev-products {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.gamedev-products > .first-product {
+    grid-column: span 2;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .gamedev-products {
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .gamedev-products {
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px;
+    }
+
+    .gamedev-products > .first-product {
+        grid-column: span 1;
+    }
+}
+/*** GAME DEV END ***/

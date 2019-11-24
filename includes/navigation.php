@@ -8,7 +8,7 @@
         </a>
         <nav class="nav-bar">
             <ul class="nav-links">
-                <li class="nav-link"><a href="/dinnae-ken-design/php/web-design.php">Design</a></li>
+                <li class="nav-link"><a href="/dinnae-ken-design/php/design.php">Design</a></li>
                 <li class="nav-link"><a href="/dinnae-ken-design/php/game-dev.php">Game Development</a></li>
                 <li class="nav-link"><a href="/dinnae-ken-design/php/3d-animation.php">3D Animation</a></li>
             </ul>

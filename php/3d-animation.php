@@ -5,8 +5,8 @@ include("../includes/header.php");
 <h1 class="page-title"><?php echo $title; ?></h1>
 
 <section class="animation-products">
-    <a href="/dinnae-ken-design/php/the-owl.php">
-        <div class="product-container first-product">
+    <div class="product-container first-product">
+        <a href="/dinnae-ken-design/php/the-owl.php">
             <img src="../assets/images/the-owl-003.jpeg" />
             <div class="product-overlay">
                 <div class="product product-header">
@@ -26,11 +26,13 @@ include("../includes/header.php");
                     <span>3DS MAX</span>
                 </div>
             </div>
-        </div>
-    </a>
+        </a>
+    </div>
 
-    <a href="/dinnae-ken-design/php/the-visitor.php">
-        <div class="product-container">
+
+
+    <div class="product-container">
+        <a href="/dinnae-ken-design/php/the-visitor.php">
             <img src="../assets/images/frame0000058.jpg" />
             <div class="product-overlay">
                 <div class="product product-header">
@@ -49,11 +51,13 @@ include("../includes/header.php");
                     <span>3DS MAX</span>
                 </div>
             </div>
-        </div>
-    </a>
+        </a>
+    </div>
 
-    <a href="/dinnae-ken-design/php/conference-room.php">
-        <div class="product-container">
+
+
+    <div class="product-container">
+        <a href="/dinnae-ken-design/php/conference-room.php">
             <img src="../assets/images/finalrender02.jpg" />
             <div class="product-overlay">
                 <div class="product product-header">
@@ -73,8 +77,9 @@ include("../includes/header.php");
                     <span>3DS MAX</span>
                 </div>
             </div>
-        </div>
-    </a>
+        </a>
+    </div>
+
 </section>
 <?php
 include("../includes/footer.php");   

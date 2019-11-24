@@ -30,8 +30,8 @@ body {
 }
 
 a { text-decoration: none; }
-ul { list-style-type: none; }
-ul li { display: inline; }
+/* ul { list-style-type: none; }
+ul li { display: inline; } */
 
 svg {
     max-height: 100%;
@@ -954,3 +954,105 @@ footer a {
   }
 
   /*** MODAL IMAGES END ***/
+
+/*** SHOWCASE ***/
+.showcase {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(4, 300px);
+    grid-gap: 20px;
+}
+
+.showcase > div > img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.showcase-hero {
+    grid-column: span 12;
+    grid-row: span 1;
+    justify-self: center;
+
+    background-color: var(--color4);
+}
+
+.showcase-text {
+    grid-column: span 4;
+    grid-row: span 2;
+
+    font-size: 1.2em;
+}
+
+.showcase-text > hr {
+    color: var(--color1);
+}
+
+.showcase-img {
+    grid-column: span 4;
+    grid-row: span 1;
+
+    background-color: var(--color5);
+}
+
+.showcase-youtube {
+    grid-column: span 12;
+    justify-self: center;
+    background-color: var(--color2);
+}
+
+.showcase-list {
+    display: block;
+    list-style: disc outside none;
+    margin: 0 10px;
+}
+
+.showcase-tools {
+    text-align: center;
+    align-self: center;
+}
+
+.youtube-desktop {
+    display: block;
+}
+
+.youtube-mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 900px) {
+    .showcase {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(4, 300px);
+        grid-gap: 20px;
+    }
+
+    .showcase-text,
+    .showcase-img {
+        grid-column: span 6;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .showcase {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(4, 300px);
+        grid-gap: 20px;
+    }
+
+    .showcase-text,
+    .showcase-img {
+        grid-column: span 12;
+    }
+
+    .youtube-desktop {
+        display: none;
+    }
+
+    .youtube-mobile {
+        display: block;
+    }
+}
+/*** SHOWCASE END ***/

@@ -1,16 +1,22 @@
 <?php
 $title = "Watch This Space";
+$dkName = "Dinnae Ken Games";
+$description = "Dinnae Ken Games developed Watch This Space in Unity during a 48 hour game jam, Moray Game Jam. The game is a typing game based on not beliving everything you see on the news and tv.";
+$keywords = "Unity 3d, first-person, retail sim, game development, Elgin, Moray, Scotland, Dinnae Ken Games";
+$url = "https://www.dinnaeken.co.uk/php/watch-this-space.php";
+$image = "https://www.dinnaeken.co.uk/assets/images/watchthisspace-02.PNG";
+$imageAlt = "A screenshot showing a stickman character sat on a seat between two televisions as various words drop down the screen.";
 include("../includes/header.php");   
 ?>
 <h1 class="page-title"><?php echo $title; ?></h1>
 
 <section class="showcase">
     <div class="showcase-hero">
-        <img src="../assets/images/watchthisspace.png" />
+        <img src="../assets/images/watchthisspace.png" alt="A smiling stickman sits between two televisions as various words drop down the screen."/>
     </div>
 
     <div class="showcase-img">
-        <img src="../assets/images/watchthisspace-01.PNG" />
+        <img src="../assets/images/watchthisspace-01.PNG" alt="Tutorial instructions below the character sat between the televisions."/>
     </div>
     <div class="showcase-text">
         <h2>Game Jam</h2>
@@ -32,14 +38,14 @@ include("../includes/header.php");
         </ul>
     </div>
     <div class="showcase-img">
-        <img src="../assets/images/watchthisspace-tv.PNG" />
+        <img src="../assets/images/watchthisspace-tv.PNG" alt="A stylised cartoon television with old style wonky antenna."/>
     </div>
 
     <div class="showcase-img">
-        <img src="../assets/images/watchthisspace-sprite-sheet.png" />
+        <img src="../assets/images/watchthisspace-sprite-sheet.png" alt="A spritesheet showing the stickman character broken up into composite parts."/>
     </div>
     <div class="showcase-img">
-        <img src="../assets/images/watchthisspace-02.PNG" />
+        <img src="../assets/images/watchthisspace-02.PNG" alt="An unhappy stickman character cowering in his seat between two televisions."/>
     </div>
      
     <div class="showcase-youtube">

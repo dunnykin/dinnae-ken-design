@@ -74,6 +74,7 @@ p {
 .btn:hover {
     background-color: var(--color2);
 }
+
 /*** COMPONENTS END ***/
 
 /*** NAVIGATION ***/
@@ -1074,3 +1075,4 @@ footer a {
     }
 }
 
+/*** SOCIAL MENACE END ***/

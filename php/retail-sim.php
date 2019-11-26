@@ -1,16 +1,22 @@
 <?php
 $title = "Untitled Retail Sim";
+$dkName = "Dinnae Ken Games";
+$description = "Dinnae Ken Games is currently developing a first-person retail simulator in Unity.";
+$keywords = "Unity 3d, first-person, retail sim, game development, Elgin, Moray, Scotland, Dinnae Ken Games";
+$url = "https://www.dinnaeken.co.uk/php/retail-sim.php";
+$image = "https://www.dinnaeken.co.uk/assets/images/retailsim-01.PNG";
+$imageAlt = "A screenshot shows a 3D stockroom with lots of colourful items filling the many shelves.";
 include("../includes/header.php");   
 ?>
 <h1 class="page-title"><?php echo $title; ?></h1>
 
 <section class="showcase">
     <div class="showcase-hero">
-        <img src="../assets/images/retailsim-01.PNG" />
+        <img src="../assets/images/retailsim-01.PNG" alt="A screenshot shows a 3D stockroom with lots of colourful items filling the many shelves."/>
     </div>
 
     <div class="showcase-img">
-        <img src="../assets/images/retailsim02.PNG" />
+        <img src="../assets/images/retailsim02.PNG" alt="Colourful items sitting on a converyor belt."/>
     </div>
     <div class="showcase-text">
         <h2>In Development</h2>
@@ -32,14 +38,14 @@ include("../includes/header.php");
         </ul>
     </div>
     <div class="showcase-img">
-        <img src="../assets/images/retailsim03.PNG" />
+        <img src="../assets/images/retailsim03.PNG" alt="Colourful items sit on fully-stocked shelves."/>
     </div>
 
     <div class="showcase-img">
-        <img src="../assets/images/retailsim04.PNG" />
+        <img src="../assets/images/retailsim04.PNG" alt="In progress screenshot showing the Unity game engine editor."/>
     </div>
     <div class="showcase-img">
-        <img src="../assets/images/retailsim05.PNG" />
+        <img src="../assets/images/retailsim05.PNG" alt="A screenshot of a script used to program the game."/>
     </div>
      
 </section>

@@ -1,5 +1,11 @@
 <?php
 $title = "Contact";
+$dkName = "Dinnae Ken Design";
+$description = "Dinnae Ken Design is an interactive media portfolio for design, 3D and game development based in Moray, Scotland.";
+$keywords = "interactive media, 3d animation, design, game development, Elgin, Moray, Scotland, Dinnae Ken Design, Dinnae Ken Games";
+$url = "https://www.dinnaeken.co.uk/php/contact.php";
+$image = "https://www.dinnaeken.co.uk/assets/images/dinnaekengames-header.png";
+$imageAlt = "Dinnae Ken Design - Design, 3D & Game Development";
 include("../includes/header.php");   
 ?>
 <div class="contact-wrapper">

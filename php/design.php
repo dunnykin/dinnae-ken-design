@@ -1,5 +1,11 @@
 <?php
 $title = "Design";
+$dkName = "Dinnae Ken Design";
+$description = "Dinnae Ken Design creates design work of many types, such as vector and bitmap art, video editing, animations, web and app design.";
+$keywords = "interactive media, design, 2d animation, vector graphics, bitmap graphics, web design, video editing, Elgin, Moray, Scotland, Dinnae Ken Design";
+$url = "https://www.dinnaeken.co.uk/php/design.php";
+$image = "https://www.dinnaeken.co.uk/assets/images/nordic-spring-01.jpg";
+$imageAlt = "A poster for a fictional water brand Nordic Spring, depicting runners in a track race, the leading runner is wearing a horned viking helmet and full braided beard, carrying a wooden shield and a bottle of water.";
 include("../includes/header.php");   
 ?>
 <h1 class="page-title"><?php echo $title; ?></h1>
@@ -15,7 +21,7 @@ include("../includes/header.php");
     </div>
 
     <div class="product-container design-darkness" onclick="openModal();currentSlide(1)">
-        <img src="../assets/images/the-darkness.jpg" />
+        <img src="../assets/images/the-darkness.jpg" alt="An album cover depicting a giant pug towering over a ruined city, a la Godzilla."/>
         <div class="product-overlay">
             <div class="product product-header">
                 <p>Bitmap art</p>
@@ -34,7 +40,7 @@ include("../includes/header.php");
     </div>
 
     <div class="product-container design-nordic-tall" onclick="openModal();currentSlide(3)">
-        <img src="../assets/images/nordic-spring-02.jpg" />
+        <img src="../assets/images/nordic-spring-02.jpg" alt="A poster for a water brand showing a bottle in the foreground with a viking longboat sailing on the sea in the background."/>
         <div class="product-overlay">
             <div class="product product-header">
                 <p>Bitmap art</p>
@@ -53,7 +59,7 @@ include("../includes/header.php");
     </div>
 
     <div class="product-container design-swatch" onclick="openModal();currentSlide(2)">
-        <img src="../assets/images/swatch-poster.png" />
+        <img src="../assets/images/swatch-poster.png" alt="A poster for Swatch depicting a giant tentacled sea monster attacking a lighthouse. One of the tentacles is a giant wristwatch."/>
         <div class="product-overlay">
             <div class="product product-header">
                 <p>Vector Art</p>
@@ -72,7 +78,7 @@ include("../includes/header.php");
     </div>
 
     <div class="product-container design-nordic-wide" onclick="openModal();currentSlide(4)">
-        <img src="../assets/images/nordic-spring-01.jpg" />
+        <img src="../assets/images/nordic-spring-01.jpg" alt="A poster for a water brand showing a track running race where the lead runner is wearing a horned viking helmet, full braided beard and carrying a wooden shield."/>
         <div class="product-overlay">
             <div class="product product-header">
                 <p>Bitmap art</p>
@@ -91,7 +97,7 @@ include("../includes/header.php");
     </div>
 
     <div class="product-container design-smoke" onclick="openModal();currentSlide(5)">
-        <img src="../assets/images/anti-smoking-trump.jpg" />
+        <img src="../assets/images/anti-smoking-trump.jpg" alt="An anti-smoking poster showing a horribly ugly man pulling a ridiculous face. In his hand is a cigarette."/>
         <div class="product-overlay">
             <div class="product product-header">
                 <p>Bitmap art</p>
@@ -110,7 +116,7 @@ include("../includes/header.php");
     </div>
 
     <div class="product-container design-death" onclick="openModal();currentSlide(6)">
-        <img src="../assets/images/Animation2.0.gif" />
+        <img src="../assets/images/Animation2.0.gif" alt="A short gif of an animation showing a dwarf character dancing with a skeletal character."/>
         <div class="product-overlay">
             <div class="product product-header">
                 <p>2D Animation</p>
@@ -129,7 +135,7 @@ include("../includes/header.php");
     </div>
 
     <div class="product-container design-halifax" onclick="openModal();currentSlide(7)">
-        <img src="../assets/images/halifax.png" />
+        <img src="../assets/images/halifax.png" alt="A cartoon bearded man holding a riot helmet and a saucepan in a wheat field with a smoking airdropped crate in the background."/>
         <div class="product-overlay">
             <div class="product product-header">
                 <p>Bitmap & Vector art</p>
@@ -155,37 +161,37 @@ include("../includes/header.php");
 
     <div class="modal-slide">
       <div class="numbertext">1 / 7</div>
-      <img src="../assets/images/the-darkness.jpg">
+      <img src="../assets/images/the-darkness.jpg" alt="An album cover depicting a giant pug towering over a ruined city, a la Godzilla.">
     </div>
 
     <div class="modal-slide">
       <div class="numbertext">2 / 7</div>
-      <img src="../assets/images/nordic-spring-02.jpg">
+      <img src="../assets/images/nordic-spring-02.jpg" alt="A poster for a water brand showing a bottle in the foreground with a viking longboat sailing on the sea in the background.">
     </div>
 
     <div class="modal-slide">
       <div class="numbertext">3 / 7</div>
-      <img src="../assets/images/nordic-spring-01.jpg">
+      <img src="../assets/images/nordic-spring-01.jpg" alt="A poster for a water brand showing a track running race where the lead runner is wearing a horned viking helmet, full braided beard and carrying a wooden shield.">
     </div>
     
     <div class="modal-slide">
       <div class="numbertext">4 / 7</div>
-      <img src="../assets/images/swatch-poster.png">
+      <img src="../assets/images/swatch-poster.png" alt="A poster for Swatch depicting a giant tentacled sea monster attacking a lighthouse. One of the tentacles is a giant wristwatch.">
     </div>
 
     <div class="modal-slide">
       <div class="numbertext">5 / 7</div>
-      <img src="../assets/images/anti-smoking-trump.jpg">
+      <img src="../assets/images/anti-smoking-trump.jpg" alt="An anti-smoking poster showing a horribly ugly man pulling a ridiculous face. In his hand is a cigarette.">
     </div>
 
     <div class="modal-slide">
       <div class="numbertext">6 / 7</div>
-      <img src="../assets/images/Animation2.0.gif">
+      <img src="../assets/images/Animation2.0.gif" alt="A short gif of an animation showing a dwarf character dancing with a skeletal character.">
     </div>
 
     <div class="modal-slide">
       <div class="numbertext">7 / 7</div>
-      <img src="../assets/images/halifax.png">
+      <img src="../assets/images/halifax.png" alt="A cartoon bearded man holding a riot helmet and a saucepan in a wheat field with a smoking airdropped crate in the background.">
     </div>
     
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>

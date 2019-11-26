@@ -1,16 +1,22 @@
 <?php
 $title = "Social Menace";
+$dkName = "Dinnae Ken Games";
+$description = "Dinnae Ken Games is currently developing a 2D serious game named Social Menace, aimed at highlighting the issue of online toxicity and addressing the player's own behaviour online and when using social media.";
+$keywords = "Unity, online toxicity, serious game, game development, Elgin, Moray, Scotland, Dinnae Ken Games";
+$url = "https://www.dinnaeken.co.uk/php/social-menace.php";
+$image = "https://www.dinnaeken.co.uk/assets/images/socialmenace03.PNG";
+$imageAlt = "A screenshot showing a simple 2D cartoony village with little townsfolk, a strong female character and a cyclops monster.";
 include("../includes/header.php");   
 ?>
 <h1 class="page-title"><?php echo $title; ?></h1>
 
 <section class="showcase">
     <div class="showcase-hero">
-        <img src="../assets/images/socialmenace03.PNG" />
+        <img src="../assets/images/socialmenace03.PNG" alt="A screenshot showing a simple 2D cartoony village with little townsfolk, a strong female character and a cyclops monster."/>
     </div>
 
     <div class="showcase-img socialmenace-img">
-        <img src="../assets/images/socialmenace-onesheet-01.png" />
+        <img src="../assets/images/socialmenace-onesheet-01.png" alt="A one-sheet game development document."/>
     </div>
     <div class="showcase-text socialmenace-text">
         <h2>In Development</h2>

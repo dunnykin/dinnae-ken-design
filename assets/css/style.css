@@ -34,7 +34,6 @@ a { text-decoration: none; }
 ul li { display: inline; } */
 
 svg {
-    max-height: 100%;
     max-width: 100%;
 }
 

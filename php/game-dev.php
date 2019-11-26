@@ -12,7 +12,7 @@ include("../includes/header.php");
 
 <section class="gamedev-products">
     <div class="product-container first-product">
-        <a href="/dinnae-ken-design/php/retail-sim.php">
+        <a href="/php/retail-sim.php">
             <img src="../assets/images/retailsim02.PNG" alt="A screenshot shows a 3D stockroom with lots of colourful items filling the many shelves."/>
             <div class="product-overlay">
                 <div class="product product-header">
@@ -35,7 +35,7 @@ include("../includes/header.php");
     </div>
 
     <div class="product-container">
-        <a href="/dinnae-ken-design/php/social-menace.php">
+        <a href="/php/social-menace.php">
             <img src="../assets/images/socialmenace03.PNG" alt="A cartoon village with a cyclops monster in the middle."/>
             <div class="product-overlay">
                 <div class="product product-header">
@@ -58,7 +58,7 @@ include("../includes/header.php");
     </div>
 
     <div class="product-container">
-        <a href="/dinnae-ken-design/php/time-flies.php">
+        <a href="/php/time-flies.php">
             <img src="../assets/images/timeflies.png" alt="A cartoon-like scene showing characters frozen in time mid-action."/>
             <div class="product-overlay">
                 <div class="product product-header">
@@ -82,7 +82,7 @@ include("../includes/header.php");
     </div>
 
     <div class="product-container">
-        <a href="/dinnae-ken-design/php/dr-bones.php">
+        <a href="/php/dr-bones.php">
             <img src="../assets/images/drbones01.PNG" alt="An image of a man bisected. One half shows him in his underpants, the other half shows an x-ray view of him with his bones silhouetted."alt="An image of a man bisected. One half shows him in his underpants, the other half shows an x-ray view of him with his bones silhouetted."/>
             <div class="product-overlay">
                 <div class="product product-header">
@@ -106,7 +106,7 @@ include("../includes/header.php");
     </div>
 
     <div class="product-container">
-        <a href="/dinnae-ken-design/php/watch-this-space.php">
+        <a href="/php/watch-this-space.php">
             <img src="../assets/images/watchthisspace-01.PNG" alt="A stickman character sat on an armchair between two televisions."/>
             <div class="product-overlay">
                 <div class="product product-header">

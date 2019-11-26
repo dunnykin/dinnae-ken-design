@@ -12,7 +12,7 @@ include("../includes/header.php");
 
 <section class="animation-products">
     <div class="product-container first-product">
-        <a href="/dinnae-ken-design/php/the-owl.php">
+        <a href="/php/the-owl.php">
             <img src="../assets/images/the-owl-003.jpeg" alt="A cartoon horned owl takes flight from a barn roof as an explosion in the barn sends the roof planks into the air."/>
             <div class="product-overlay">
                 <div class="product product-header">
@@ -38,7 +38,7 @@ include("../includes/header.php");
 
 
     <div class="product-container">
-        <a href="/dinnae-ken-design/php/the-visitor.php">
+        <a href="/php/the-visitor.php">
             <img src="../assets/images/frame0000058.jpg" alt="A might scene showing a police car parked on a street in a town."/>
             <div class="product-overlay">
                 <div class="product product-header">
@@ -63,7 +63,7 @@ include("../includes/header.php");
 
 
     <div class="product-container">
-        <a href="/dinnae-ken-design/php/conference-room.php">
+        <a href="/php/conference-room.php">
             <img src="../assets/images/finalrender02.jpg" alt="A realistic 3D render showing a round table dinner party."/>
             <div class="product-overlay">
                 <div class="product product-header">

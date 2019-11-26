@@ -7,7 +7,7 @@ if (preg_match('~MSIE|Internet Explorer~i', $ua) || (strpos($ua, 'Trident/7.0') 
 ?>
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <!-- Meta Tags -->
     <meta charset="utf-8" />

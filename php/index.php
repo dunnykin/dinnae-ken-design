@@ -11,7 +11,7 @@ include("../includes/header.php");
 
 <div id="home-wrapper">
     
-    <section class="hero">
+    <!-- <section class="hero">
         <h2>What does good design mean to you?</h2>
         <h1>Dinnae Ken</h1>
 
@@ -33,7 +33,7 @@ include("../includes/header.php");
                 <h3>3D Animation</h3>
             </li>
         </ul>
-    </section>
+    </section> -->
 
     <section class="gallery">
         <div class="gallery-item wide">

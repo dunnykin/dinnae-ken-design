@@ -275,6 +275,10 @@ header {
     color: var(--txt-light);
 }
 
+.footer a:hover {
+    color: var(--color5);
+}
+
 /*** FOOTER END ***/
 
 /*** INDEX ***/
@@ -1042,3 +1046,61 @@ header {
 }
 
 /*** SOCIAL MENACE END ***/
+
+/*** ABOUT US ***/
+.about-wrapper {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 20px;
+}
+
+.about-heading {
+    font-size: 1.75em;
+}
+
+.about-intro {
+    grid-column: span 12;
+}
+
+.about-chunk {
+    grid-column: span 4;
+}
+
+.about-me {
+    grid-column: span 6;
+}
+
+.profile-pic {
+    grid-column: span 6;
+}
+
+.profile-pic > img  {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transform: rotate(180deg);
+    border-radius: 50%;
+}
+
+.profile-pic > figcaption {
+    text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+    .about-intro,
+    .about-chunk,
+    .about-me,
+    .profile-pic {
+        grid-column: span 6;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .about-intro,
+    .about-chunk,
+    .about-me,
+    .profile-pic {
+        grid-column: span 12;
+    }
+}
+/*** ABOUT US END ***/

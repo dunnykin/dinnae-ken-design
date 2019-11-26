@@ -4,7 +4,7 @@ $dkName = "Dinnae Ken Design";
 $description = "Dinnae Ken Design created a 3D animation called The Owl based on a Brothers Grimm tale of the same name. The story is about a silly farmer getting scared by a gentle horned owl sleeping in his barn.";
 $keywords = "3d animation, brothers grimm, the owl, cartoon shader, animation controllers, particle emittors, Elgin, Moray, Scotland, Dinnae Ken Design";
 $url = "https://www.dinnaeken.co.uk/php/the-owl.php";
-$image = "https://www.dinnaeken.co.uk/assets/images/the-owl-001.jpeg";
+$image = "https://www.dinnaeken.co.uk/assets/images/the-owl-001.webp";
 $imageAlt = "A cartoon-like render of frame from a 3D animation, depicting a sleeping horned owl in the rafters of a barn.";
 include("../includes/header.php");   
 ?>
@@ -12,11 +12,11 @@ include("../includes/header.php");
 
 <section class="showcase">
     <div class="showcase-hero">
-        <img src="../assets/images/the-owl-001.jpeg" alt="A sleeping horned owl."/>
+        <img src="../assets/images/the-owl-001.webp" alt="A sleeping horned owl."/>
     </div>
 
     <div class="showcase-img">
-        <img src="../assets/images/owl-dev04.png" alt="A view of the owl model showing the edged faces."/>
+        <img src="../assets/images/owl-dev04.webp" alt="A view of the owl model showing the edged faces."/>
     </div>
     <div class="showcase-text">
         <h2>3D Modelling & Animation</h2>
@@ -40,14 +40,14 @@ include("../includes/header.php");
         </ul>
     </div>
     <div class="showcase-img">
-        <img src="../assets/images/owl-dev01.png" alt="A view of the farmer model showing the animation controllers."/>
+        <img src="../assets/images/owl-dev01.webp" alt="A view of the farmer model showing the animation controllers."/>
     </div>
 
     <div class="showcase-img">
-        <img src="../assets/images/owl-dev02.jpg" alt="A shot of the owl sat in the barn window looking down on the farmer."/>
+        <img src="../assets/images/owl-dev02.webp" alt="A shot of the owl sat in the barn window looking down on the farmer."/>
     </div>
     <div class="showcase-img">
-        <img src="../assets/images/owl-dev03.png" alt="A wireframe view of the owl model."/>
+        <img src="../assets/images/owl-dev03.webp" alt="A wireframe view of the owl model."/>
     </div>
 
 

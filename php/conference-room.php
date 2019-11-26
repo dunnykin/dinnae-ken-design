@@ -4,7 +4,7 @@ $dkName = "Dinnae Ken Design";
 $description = "Dinnae Ken Design created a realistic 3D render of the Alexander Graham Bell Centre conference room of Moray College UHI, located in Elgin, Moray, Scotland.";
 $keywords = "3d animation, 3d model, realistic materials, Elgin, Moray, Scotland, Dinnae Ken Design";
 $url = "https://www.dinnaeken.co.uk/php/conference-room.php";
-$image = "https://www.dinnaeken.co.uk/assets/images/TeamOlympus-AGBC-1.jpg";
+$image = "https://www.dinnaeken.co.uk/assets/images/TeamOlympus-AGBC-1.webp";
 $imageAlt = "Realistically rendered 3D model of a conference room set out for a round table dinner party.";
 include("../includes/header.php");   
 ?>
@@ -12,11 +12,11 @@ include("../includes/header.php");
 
 <section class="showcase">
     <div class="showcase-hero">
-        <img src="../assets/images/finalrender01.jpg" alt="A realistic 3D render of a round table dinner party. A long shot showing the length of the room."/>
+        <img src="../assets/images/finalrender01.webp" alt="A realistic 3D render of a round table dinner party. A long shot showing the length of the room."/>
     </div>
 
     <div class="showcase-img">
-        <img src="../assets/images/finalrender02.jpg" alt="A close up shot of one of the tables, with a cream tablecloth and eight place settings."/>
+        <img src="../assets/images/finalrender02.webp" alt="A close up shot of one of the tables, with a cream tablecloth and eight place settings."/>
     </div>
     <div class="showcase-text">
         <h2>3D Modelling</h2>
@@ -38,14 +38,14 @@ include("../includes/header.php");
         </ul>
     </div>
     <div class="showcase-img">
-        <img src="../assets/images/tablecloth-redvelvet.jpg" alt="An alternate shot of the room, showing the tables with red velvet tablecloths."/>
+        <img src="../assets/images/tablecloth-redvelvet.webp" alt="An alternate shot of the room, showing the tables with red velvet tablecloths."/>
     </div>
 
     <div class="showcase-img">
-        <img src="../assets/images/finalrender04.jpg" alt="A closer shot of the room showing only a few tables in front of a glass sliding door."/>
+        <img src="../assets/images/finalrender04.webp" alt="A closer shot of the room showing only a few tables in front of a glass sliding door."/>
     </div>
     <div class="showcase-img">
-        <img src="../assets/images/TeamOlympus-AGBC-1.jpg" alt="A shot of the conference room with no furniture in it."/>
+        <img src="../assets/images/TeamOlympus-AGBC-1.webp" alt="A shot of the conference room with no furniture in it."/>
     </div>
      
 </section>

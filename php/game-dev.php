@@ -4,7 +4,7 @@ $dkName = "Dinnae Ken Games";
 $description = "Dinnae Ken Games develops games in Unity, including typing games, point'n'click games. Currently in development is a 3D first-person retail simulator, as yet untitled.";
 $keywords = "Unity3d, game development, retail sim, game jam, Elgin, Moray, Scotland, Dinnae Ken Games";
 $url = "https://www.dinnaeken.co.uk/php/game-dev.php";
-$image = "https://www.dinnaeken.co.uk/assets/images/retailsim-01.PNG";
+$image = "https://www.dinnaeken.co.uk/assets/images/retailsim-01.webp";
 $imageAlt = "A screenshot shows a 3D stockroom with lots of colourful items filling the many shelves.";
 include("../includes/header.php");   
 ?>
@@ -13,7 +13,7 @@ include("../includes/header.php");
 <section class="gamedev-products">
     <div class="product-container first-product">
         <a href="/php/retail-sim.php">
-            <img src="../assets/images/retailsim02.PNG" alt="A screenshot shows a 3D stockroom with lots of colourful items filling the many shelves."/>
+            <img src="../assets/images/retailsim02.webp" alt="A screenshot shows a 3D stockroom with lots of colourful items filling the many shelves."/>
             <div class="product-overlay">
                 <div class="product product-header">
                     <p>PC Game</p>
@@ -36,7 +36,7 @@ include("../includes/header.php");
 
     <div class="product-container">
         <a href="/php/social-menace.php">
-            <img src="../assets/images/socialmenace03.PNG" alt="A cartoon village with a cyclops monster in the middle."/>
+            <img src="../assets/images/socialmenace03.webp" alt="A cartoon village with a cyclops monster in the middle."/>
             <div class="product-overlay">
                 <div class="product product-header">
                     <p>Serious PC Game</p>
@@ -59,7 +59,7 @@ include("../includes/header.php");
 
     <div class="product-container">
         <a href="/php/time-flies.php">
-            <img src="../assets/images/timeflies.png" alt="A cartoon-like scene showing characters frozen in time mid-action."/>
+            <img src="../assets/images/timeflies.webp" alt="A cartoon-like scene showing characters frozen in time mid-action."/>
             <div class="product-overlay">
                 <div class="product product-header">
                     <p>Game Jam</p>
@@ -83,7 +83,7 @@ include("../includes/header.php");
 
     <div class="product-container">
         <a href="/php/dr-bones.php">
-            <img src="../assets/images/drbones01.PNG" alt="An image of a man bisected. One half shows him in his underpants, the other half shows an x-ray view of him with his bones silhouetted."alt="An image of a man bisected. One half shows him in his underpants, the other half shows an x-ray view of him with his bones silhouetted."/>
+            <img src="../assets/images/drbones01.webp" alt="An image of a man bisected. One half shows him in his underpants, the other half shows an x-ray view of him with his bones silhouetted."alt="An image of a man bisected. One half shows him in his underpants, the other half shows an x-ray view of him with his bones silhouetted."/>
             <div class="product-overlay">
                 <div class="product product-header">
                     <p>Educational App</p>
@@ -107,7 +107,7 @@ include("../includes/header.php");
 
     <div class="product-container">
         <a href="/php/watch-this-space.php">
-            <img src="../assets/images/watchthisspace-01.PNG" alt="A stickman character sat on an armchair between two televisions."/>
+            <img src="../assets/images/watchthisspace-01.webp" alt="A stickman character sat on an armchair between two televisions."/>
             <div class="product-overlay">
                 <div class="product product-header">
                     <p>Game Jam</p>

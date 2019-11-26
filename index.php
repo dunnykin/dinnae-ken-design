@@ -30,14 +30,14 @@ else
 <meta property="og:title" content="Dinnae Ken Design | Design, 3D & Game Development">
 <meta property="og:description" content="Dinnae Ken Design is an interactive media portfolio for design, 3D and game development based in Moray, Scotland.">
 <meta property="og:url" content="https://www.dinnaeken.co.uk">
-<meta property="og:image" content="https://www.dinnaeken.co.uk/assets/images/dinnaekengames-header.png">
+<meta property="og:image" content="https://www.dinnaeken.co.uk/assets/images/dinnaekengames-header.webp">
 
 <!-- Twitter Cards -->
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@dinnaekengames">
 <meta name="twitter:title" content="Dinnae Ken Design | Design, 3D & Game Development">
 <meta name="twitter:description" content="Dinnae Ken Design is an interactive media portfolio for design, 3D and game development based in Moray, Scotland.">
-<meta name="twitter:image" content="https://www.dinnaeken.co.uk/assets/images/dinnaekengames-header.png">
+<meta name="twitter:image" content="https://www.dinnaeken.co.uk/assets/images/dinnaekengames-header.webp">
 <meta name="twitter:image:alt" content="Dinnae Ken Design - Design, 3D & Game Development">
 
 </head>

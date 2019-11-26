@@ -4,7 +4,7 @@ $dkName = "Dinnae Ken Design";
 $description = "Dinnae Ken Design created a 3D animation named The Visitor, using 3DS Max. The animation tells the story of an object crashing to the ground from space, and the police who investigate it.";
 $keywords = "3d animation, the visitor, 3ds max, sci-fi, Elgin, Moray, Scotland, Dinnae Ken Design";
 $url = "https://www.dinnaeken.co.uk/php/the-visitor.php";
-$image = "https://www.dinnaeken.co.uk/assets/images/frame0000379.jpg";
+$image = "https://www.dinnaeken.co.uk/assets/images/frame0000379.webp";
 $imageAlt = "A single rendered frame depicting a police car driving through a town, the lights reflecting on the surrounding windows.";
 include("../includes/header.php");   
 ?>
@@ -12,11 +12,11 @@ include("../includes/header.php");
 
 <section class="showcase">
     <div class="showcase-hero">
-        <img src="../assets/images/frame0000058.jpg" alt="A police car parked in an empty street at night."/>
+        <img src="../assets/images/frame0000058.webp" alt="A police car parked in an empty street at night."/>
     </div>
 
     <div class="showcase-img">
-        <img src="../assets/images/frame0000379.jpg" alt="A police car with lights flashing, driving through an empty street at night."/>
+        <img src="../assets/images/frame0000379.webp" alt="A police car with lights flashing, driving through an empty street at night."/>
     </div>
     <div class="showcase-text">
         <h2>3D Modelling & Animation</h2>
@@ -41,14 +41,14 @@ include("../includes/header.php");
         </ul>
     </div>
     <div class="showcase-img">
-        <img src="../assets/images/frame0000519.jpg" alt="A police car drives through the woods at night."/>
+        <img src="../assets/images/frame0000519.webp" alt="A police car drives through the woods at night."/>
     </div>
 
     <div class="showcase-img">
-        <img src="../assets/images/frame0000714.jpg" alt="A shiny metal robot with glowing eyes wearing a police badge."/>
+        <img src="../assets/images/frame0000714.webp" alt="A shiny metal robot with glowing eyes wearing a police badge."/>
     </div>
     <div class="showcase-img">
-        <img src="../assets/images/frame0000687.jpg" alt="An astronaut standing on the edge of a crater, waving."/>
+        <img src="../assets/images/frame0000687.webp" alt="An astronaut standing on the edge of a crater, waving."/>
     </div>
 
 

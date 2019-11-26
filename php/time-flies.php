@@ -4,7 +4,7 @@ $dkName = "Dinnae Ken Games";
 $description = "Dinnae Ken Games developed Time Flies in Adobe Animate during a 48 hour game jam named Moray Game Jam. The game is a point'n'click based on a world where time has gone missing.";
 $keywords = "Adobe Animate, flash game, point'n'click, game jam, Moray Game Jam, game development, Elgin, Moray, Scotland, Dinnae Ken Games";
 $url = "https://www.dinnaeken.co.uk/php/time-flies.php";
-$image = "https://www.dinnaeken.co.uk/assets/images/timeflies.png";
+$image = "https://www.dinnaeken.co.uk/assets/images/timeflies.webp";
 $imageAlt = "A screenshot showing a tableaux of a frozen cartoon-like scene with various human characters stopped mid-action.";
 include("../includes/header.php");   
 ?>
@@ -16,7 +16,7 @@ include("../includes/header.php");
     </div>
 
     <div class="showcase-img">
-        <img src="../assets/images/timeflies-cover.png" alt="An alarm clock with wings."/>
+        <img src="../assets/images/timeflies-cover.webp" alt="An alarm clock with wings."/>
     </div>
     <div class="showcase-text">
         <h2>Game Jam</h2>
@@ -38,14 +38,14 @@ include("../includes/header.php");
         </ul>
     </div>
     <div class="showcase-img">
-        <img src="../assets/images/timeflies-gameplay.PNG" alt="Colourful characters frozen mid-action."/>
+        <img src="../assets/images/timeflies-gameplay.webp" alt="Colourful characters frozen mid-action."/>
     </div>
 
     <div class="showcase-img">
         <img src="../assets/images/timeflies-tutorial.gif" alt="A gif of the tutorial screen showing instructions for how to play the game."/>
     </div>
     <div class="showcase-img">
-        <img src="../assets/images/timeflies.png" alt="Colourful characters frozen mid-action."/>
+        <img src="../assets/images/timeflies.webp" alt="Colourful characters frozen mid-action."/>
     </div>
      
     <div class="showcase-youtube">

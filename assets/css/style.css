@@ -243,15 +243,35 @@ header {
 }
 
 /*** FOOTER ***/
-footer {
+.footer {
     background-color: var(--color2);
 
-    display: flex;
-    justify-content: center;
-    margin: 20px 0 0 0;
+    margin: 40px 0 0 0;
+    padding: 20px;
+    color: #fff;
 }
 
-footer a {
+.footer-wrapper {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 800px;
+
+}
+
+.footer-wrapper > ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    width: 320px;
+}
+
+.fab {
+    font-size: 1.7em;
+}
+
+.footer a {
     color: var(--txt-light);
 }
 

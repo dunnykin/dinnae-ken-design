@@ -73,9 +73,9 @@ include("../includes/header.php");
 
 
     <div class="showcase-youtube">
-        <iframe class="youtube-desktop" width="560" height="315" src="https://www.youtube.com/embed/C0PZJT9Z7ro" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe title="Watch The Visitor on Youtube" class="youtube-desktop" width="560" height="315" src="https://www.youtube.com/embed/C0PZJT9Z7ro" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-        <iframe class="youtube-mobile" width="320" height="180" src="https://www.youtube.com/embed/C0PZJT9Z7ro" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe title="Watch The Visitor on Youtube" class="youtube-mobile" width="320" height="180" src="https://www.youtube.com/embed/C0PZJT9Z7ro" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>        
 </section>
 

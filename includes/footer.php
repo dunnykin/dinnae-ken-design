@@ -10,12 +10,12 @@
             </ul>
             <ul class="social-nav">
                 <li>
-                    <a href="https://www.facebook.com/dinnaekengames/">
+                    <a href="https://www.facebook.com/dinnaekengames/" aria-label="Link to Dinnae Ken Games facebook">
                         <i class="fab fa-facebook"></i>
                     </a>
                 </li>
                 <li>
-                    <a href="https://twitter.com/dinnaekengames">
+                    <a href="https://twitter.com/dinnaekengames" aria-label="Link to Dinnae Ken Games twitter">
                         <i class="fab fa-twitter"></i>
                     </a>
                 </li>

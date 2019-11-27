@@ -61,8 +61,8 @@ include("../includes/header.php");
     </div>
      
     <div class="showcase-youtube">
-        <iframe class="youtube-desktop" src="https://itch.io/embed/236985" height="167" width="552" frameborder="0"></iframe>
-        <iframe class="youtube-mobile" src="https://itch.io/embed/236985" height="44" width="320" frameborder="0"></iframe>
+        <iframe title="Click here to download Time Flies" class="youtube-desktop" src="https://itch.io/embed/236985" height="167" width="552" frameborder="0"></iframe>
+        <iframe title="Click here to download Time Flies" class="youtube-mobile" src="https://itch.io/embed/236985" height="44" width="320" frameborder="0"></iframe>
     </div>
 </section>
 

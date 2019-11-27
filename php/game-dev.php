@@ -26,11 +26,11 @@ include("../includes/header.php");
                     <p>Untitled Retail Sim</p>
                     <hr>
                 </div>
-                <div class="product product-list">
+                <ul class="product product-list">
                     <li>First-person controller</li>
                     <li>Procedurally generated stock</li>
                     <li>CPU controlled NPCs</li>
-                </div>
+                </ul>
                 <div class="product product-footer">
                     <span>Unity</span>
                 </div>
@@ -53,11 +53,11 @@ include("../includes/header.php");
                     <p>Social Menace</p>
                     <hr>
                 </div>
-                <div class="product product-list">
+                <ul class="product product-list">
                     <li>2D Sprites</li>
                     <li>UI based gameplay</li>
                     <li>Serious theme</li>
-                </div>
+                </ul>
                 <div class="product product-footer">
                     <span>Unity</span>
                 </div>
@@ -80,12 +80,12 @@ include("../includes/header.php");
                     <p>Time Flies</p>
                     <hr>
                 </div>
-                <div class="product product-list">
+                <ul class="product product-list">
                     <li>Point and click gameplay</li>
                     <li>2D sprites</li>
                     <li>Young audience</li>
                     <li>Made in 48 hours</li>
-                </div>
+                </ul>
                 <div class="product product-footer">
                     <span>Adobe Animate</span>
                 </div>
@@ -108,12 +108,12 @@ include("../includes/header.php");
                     <p>Dr Bones</p>
                     <hr>
                 </div>
-                <div class="product product-list">
+                <ul class="product product-list">
                     <li>Hangman gameplay</li>
                     <li>2D sprites</li>
                     <li>Young audience</li>
                     <li>Teaching bone names</li>
-                </div>
+                </ul>
                 <div class="product product-footer">
                     <span>Adobe Animate</span>
                 </div>
@@ -136,11 +136,11 @@ include("../includes/header.php");
                     <p>Watch This Space</p>
                     <hr>
                 </div>
-                <div class="product product-list">
+                <ul class="product product-list">
                     <li>Typing gameplay</li>
                     <li>2D sprites</li>
                     <li>Made in 48 hours</li>
-                </div>
+                </ul>
                 <div class="product product-footer">
                     <span>Unity</span>
                 </div>

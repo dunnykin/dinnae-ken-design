@@ -50,7 +50,7 @@ include("../includes/header.php");
                 <hr>
             </div>
             <div class="product product-list">
-                
+                Branding exercise for a fictional water company.
             </div>
             <div class="product product-footer">
                 <span>Adobe Photoshop</span>
@@ -88,7 +88,7 @@ include("../includes/header.php");
                 <hr>
             </div>
             <div class="product product-list">
-                
+                Branding exercise for a fictional water company.
             </div>
             <div class="product product-footer">
                 <span>Adobe Photoshop</span>

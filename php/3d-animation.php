@@ -26,12 +26,12 @@ include("../includes/header.php");
                     <p>The Owl</p>
                     <hr>
                 </div>
-                <div class="product product-list">
+                <ul class="product product-list">
                     <li>Bone-rigged characters</li>
                     <li>Animation controllers</li>
                     <li>Particle emittors</li>
                     <li>Cartoon-style shader</li>
-                </div>
+                </ul>
                 <div class="product product-footer">
                     <span>3DS MAX</span>
                 </div>
@@ -54,11 +54,11 @@ include("../includes/header.php");
                     <p>The Visitor</p>
                     <hr>
                 </div>
-                <div class="product product-list">
+                <ul class="product product-list">
                     <li>Low-poly models</li>
                     <li>Realistic materials</li>
                     <li>Varied lighting techniques</li>
-                </div>
+                </ul>
                 <div class="product product-footer">
                     <span>3DS MAX</span>
                 </div>
@@ -81,12 +81,12 @@ include("../includes/header.php");
                     <p>Conference room</p>
                     <hr>
                 </div>
-                <div class="product product-list">
+                <ul class="product product-list">
                     <li>Accurate measurements</li>
                     <li>Realistic materials and lighting</li>
                     <li>Cloud rendered</li>
                     <li>Teamwork</li>
-                </div>
+                </ul>
                 <div class="product product-footer">
                     <span>3DS MAX</span>
                 </div>

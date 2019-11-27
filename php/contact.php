@@ -33,13 +33,13 @@ include("../includes/header.php");
 
     <aside class="facebook">
         <h1>Facebook</h1>
-        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fdinnaekengames%2F&tabs=timeline&width=340&height=900&small_header=false&adapt_container_width=true&hide_cover=true&show_facepile=true&appId" 
+        <iframe title="Dinnae Ken Games Facebook feed" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fdinnaekengames%2F&tabs=timeline&width=340&height=900&small_header=false&adapt_container_width=true&hide_cover=true&show_facepile=true&appId" 
         width="340" height="900" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
     </aside>
 
     <aside class="twitter">
         <h1>Twitter</h1>
-        <a class="twitter-timeline" data-height="1000" data-theme="dark" data-link-color="#E95F28" href="https://twitter.com/dinnaekengames?ref_src=twsrc%5Etfw">
+        <a aria-label="Dinnae Ken Games Twitter feed" class="twitter-timeline" data-height="1000" data-theme="dark" data-link-color="#E95F28" href="https://twitter.com/dinnaekengames?ref_src=twsrc%5Etfw">
             Tweets by dinnaekengames</a> 
         <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </aside>

@@ -597,6 +597,7 @@ header {
   transition: all 0.7s;
   letter-spacing: 1;
   margin: 0 0 0 10px;
+  list-style-type: disc;
 }
 
 .product-footer {

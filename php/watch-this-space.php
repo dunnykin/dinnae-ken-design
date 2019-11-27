@@ -69,8 +69,8 @@ include("../includes/header.php");
     </div>
      
     <div class="showcase-youtube">
-        <iframe class="youtube-desktop" src="https://itch.io/embed/397171" height="167" width="552" frameborder="0"></iframe>
-        <iframe class="youtube-mobile" src="https://itch.io/embed/397171" height="44" width="320" frameborder="0"></iframe>
+        <iframe title="Click here to download Watch This Space" class="youtube-desktop" src="https://itch.io/embed/397171" height="167" width="552" frameborder="0"></iframe>
+        <iframe title="Click here to download Watch This Space" class="youtube-mobile" src="https://itch.io/embed/397171" height="44" width="320" frameborder="0"></iframe>
     </div>
 </section>
 

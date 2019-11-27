@@ -40,8 +40,8 @@ include("../includes/header.php");
             </li>
         </ul>
         <hr>
+        <h3>TOOLS:</h3>
         <ul class="showcase-tools">
-            <h3>TOOLS:</h3>
             <li>3DS Max</li>
             <li>Autodesk Mudbox</li>
             <li>Adobe Premiere Pro</li>

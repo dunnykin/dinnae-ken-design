@@ -38,8 +38,8 @@ include("../includes/header.php");
             <li>CPU controlled NPCs</li>
         </ul>
         <hr>
+        <h3>TOOLS:</h3>
         <ul class="showcase-tools">
-            <h3>TOOLS:</h3>
             <li>Unity</li>
             <li>Hack'n'Plan</li>
             <li>ProBuilder3D</li>

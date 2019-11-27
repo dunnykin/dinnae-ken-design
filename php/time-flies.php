@@ -34,8 +34,8 @@ include("../includes/header.php");
             <li>Spritesheet animation</li>
         </ul>
         <hr>
+        <h3>TOOLS:</h3>
         <ul class="showcase-tools">
-            <h3>TOOLS:</h3>
             <li>Adobe Animate</li>
             <li>Adobe Illustrator</li>
             <li>Actionscript 3</li>

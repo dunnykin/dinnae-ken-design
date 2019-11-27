@@ -37,8 +37,8 @@ include("../includes/header.php");
             <li>Serious message</li>
         </ul>
         <hr>
+        <h3>TOOLS:</h3>
         <ul class="showcase-tools">
-            <h3>TOOLS:</h3>
             <li>Unity</li>
         </ul>
     </div>

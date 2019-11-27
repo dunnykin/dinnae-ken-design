@@ -39,8 +39,8 @@ include("../includes/header.php");
             <li>Asset management</li>
         </ul>
         <hr>
-        <ul class="showcase-tools">
-            <h3>TOOLS:</h3>
+        <h3>TOOLS:</h3>
+        <ul class="showcase-tools">            
             <li>3DS Max</li>
             <li>Cloud Renderer</li>
         </ul>

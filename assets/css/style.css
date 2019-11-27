@@ -957,6 +957,10 @@ header {
     color: var(--color1);
 }
 
+.showcase-text h3 {
+    text-align: center;
+}
+
 .showcase-img {
     grid-column: span 4;
     grid-row: span 1;

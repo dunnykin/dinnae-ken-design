@@ -210,22 +210,21 @@ header {
     fill: var(--alt2);
 }
 
-.logo-games {
-    fill:#ee6c4d;
-    display: none;
+.logo-txt-games {
+    fill:var(--alt4);
+    filter: url(#glow);
+    /* display: none; */
 }
 
-@media only screen and (max-width: 600px)
-{
-    .games-logo-screen {
-        display: none;
-    }
+.logo-gamepad {
+    fill:var(--alt2);
 }
-@media only screen and (min-width: 601px)
-{
-    .games-gamepad {
-        display: none;
-    }
+
+.logo-games-qmark {
+    fill: var(--alt4);
+    stroke: var(--color1);
+    stroke-miterlimit: 10;
+    stroke-width: 4px;
 }
 /*** LOGOS END ***/
 /*** NAVIGATION END ***/

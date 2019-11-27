@@ -221,7 +221,7 @@ header {
 }
 
 .logo-games-qmark {
-    fill: var(--alt4);
+    fill: var(--color5);
     stroke: var(--color1);
     stroke-miterlimit: 10;
     stroke-width: 4px;

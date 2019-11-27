@@ -12,11 +12,19 @@ include("../includes/header.php");
 
 <section class="showcase">
     <div class="showcase-hero">
-        <img src="../assets/images/retailsim-01.webp" alt="A screenshot shows a 3D stockroom with lots of colourful items filling the many shelves."/>
+        <picture>
+            <source srcset="../assets/images/retailsim-01.webp" type="image/webp">
+            <source srcset="../assets/images/retailsim-01.PNG" type="image/png"> 
+            <img src="../assets/images/retailsim-01.PNG" alt="A screenshot shows a 3D stockroom with lots of colourful items filling the many shelves."/>
+        </picture>
     </div>
 
     <div class="showcase-img">
-        <img src="../assets/images/retailsim02.webp" alt="Colourful items sitting on a converyor belt."/>
+        <picture>
+            <source srcset="../assets/images/retailsim02.webp" type="image/webp">
+            <source srcset="../assets/images/retailsim02.PNG" type="image/png"> 
+            <img src="../assets/images/retailsim02.PNG" alt="Colourful items sitting on a converyor belt."/>
+        </picture>
     </div>
     <div class="showcase-text">
         <h2>In Development</h2>
@@ -38,14 +46,26 @@ include("../includes/header.php");
         </ul>
     </div>
     <div class="showcase-img">
-        <img src="../assets/images/retailsim03.webp" alt="Colourful items sit on fully-stocked shelves."/>
+        <picture>
+            <source srcset="../assets/images/retailsim03.webp" type="image/webp">
+            <source srcset="../assets/images/retailsim03.PNG" type="image/png"> 
+            <img src="../assets/images/retailsim03.PNG" alt="Colourful items sit on fully-stocked shelves."/>
+        </picture>
     </div>
 
     <div class="showcase-img">
-        <img src="../assets/images/retailsim04.webp" alt="In progress screenshot showing the Unity game engine editor."/>
+        <picture>
+            <source srcset="../assets/images/retailsim04.webp" type="image/webp">
+            <source srcset="../assets/images/retailsim04.PNG" type="image/png"> 
+            <img src="../assets/images/retailsim04.PNG" alt="In progress screenshot showing the Unity game engine editor."/>
+        </picture>
     </div>
     <div class="showcase-img">
-        <img src="../assets/images/retailsim05.webp" alt="A screenshot of a script used to program the game."/>
+        <picture>
+            <source srcset="../assets/images/retailsim05.webp" type="image/webp">
+            <source srcset="../assets/images/retailsim05.PNG" type="image/png"> 
+            <img src="../assets/images/retailsim05.PNG" alt="A screenshot of a script used to program the game."/>
+        </picture>
     </div>
      
 </section>

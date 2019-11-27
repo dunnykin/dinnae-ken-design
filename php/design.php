@@ -4,7 +4,7 @@ $dkName = "Dinnae Ken Design";
 $description = "Dinnae Ken Design creates design work of many types, such as vector and bitmap art, video editing, animations, web and app design.";
 $keywords = "interactive media, design, 2d animation, vector graphics, bitmap graphics, web design, video editing, Elgin, Moray, Scotland, Dinnae Ken Design";
 $url = "https://www.dinnaeken.co.uk/php/design.php";
-$image = "https://www.dinnaeken.co.uk/assets/images/nordic-spring-01.webp";
+$image = "https://www.dinnaeken.co.uk/assets/images/nordic-spring-01.jpg";
 $imageAlt = "A poster for a fictional water brand Nordic Spring, depicting runners in a track race, the leading runner is wearing a horned viking helmet and full braided beard, carrying a wooden shield and a bottle of water.";
 include("../includes/header.php");   
 ?>
@@ -17,11 +17,11 @@ include("../includes/header.php");
         <br>
         <p>Most are work created in college, and some are very early into my design education, so are pretty rough around the edges.</p>
         <br>
-        <p>However, each one should demonstrate a design technique or two:</p>
+        <p>However, each one should demonstrate a design technique or two, click on them for a closer look:</p>
     </div>
 
     <div class="product-container design-darkness" onclick="openModal();currentSlide(1)">
-        <img src="../assets/images/the-darkness.webp" alt="An album cover depicting a giant pug towering over a ruined city, a la Godzilla."/>
+        <img src="../assets/images/the-darkness.jpg" alt="An album cover depicting a giant pug towering over a ruined city, a la Godzilla."/>
         <div class="product-overlay">
             <div class="product product-header">
                 <p>Bitmap art</p>
@@ -40,7 +40,7 @@ include("../includes/header.php");
     </div>
 
     <div class="product-container design-nordic-tall" onclick="openModal();currentSlide(3)">
-        <img src="../assets/images/nordic-spring-02.webp" alt="A poster for a water brand showing a bottle in the foreground with a viking longboat sailing on the sea in the background."/>
+        <img src="../assets/images/nordic-spring-02.jpg" alt="A poster for a water brand showing a bottle in the foreground with a viking longboat sailing on the sea in the background."/>
         <div class="product-overlay">
             <div class="product product-header">
                 <p>Bitmap art</p>
@@ -59,7 +59,7 @@ include("../includes/header.php");
     </div>
 
     <div class="product-container design-swatch" onclick="openModal();currentSlide(2)">
-        <img src="../assets/images/swatch-poster.webp" alt="A poster for Swatch depicting a giant tentacled sea monster attacking a lighthouse. One of the tentacles is a giant wristwatch."/>
+        <img src="../assets/images/swatch-poster.png" alt="A poster for Swatch depicting a giant tentacled sea monster attacking a lighthouse. One of the tentacles is a giant wristwatch."/>
         <div class="product-overlay">
             <div class="product product-header">
                 <p>Vector Art</p>
@@ -78,7 +78,7 @@ include("../includes/header.php");
     </div>
 
     <div class="product-container design-nordic-wide" onclick="openModal();currentSlide(4)">
-        <img src="../assets/images/nordic-spring-01.webp" alt="A poster for a water brand showing a track running race where the lead runner is wearing a horned viking helmet, full braided beard and carrying a wooden shield."/>
+        <img src="../assets/images/nordic-spring-02.jpg" alt="A poster for a water brand showing a track running race where the lead runner is wearing a horned viking helmet, full braided beard and carrying a wooden shield."/>
         <div class="product-overlay">
             <div class="product product-header">
                 <p>Bitmap art</p>
@@ -97,7 +97,7 @@ include("../includes/header.php");
     </div>
 
     <div class="product-container design-smoke" onclick="openModal();currentSlide(5)">
-        <img src="../assets/images/anti-smoking-trump.webp" alt="An anti-smoking poster showing a horribly ugly man pulling a ridiculous face. In his hand is a cigarette."/>
+        <img src="../assets/images/anti-smoking-trump.jpg" alt="An anti-smoking poster showing a horribly ugly man pulling a ridiculous face. In his hand is a cigarette."/>
         <div class="product-overlay">
             <div class="product product-header">
                 <p>Bitmap art</p>
@@ -135,7 +135,7 @@ include("../includes/header.php");
     </div>
 
     <div class="product-container design-halifax" onclick="openModal();currentSlide(7)">
-        <img src="../assets/images/halifax.webp" alt="A cartoon bearded man holding a riot helmet and a saucepan in a wheat field with a smoking airdropped crate in the background."/>
+        <img src="../assets/images/halifax.png" alt="A cartoon bearded man holding a riot helmet and a saucepan in a wheat field with a smoking airdropped crate in the background."/>
         <div class="product-overlay">
             <div class="product product-header">
                 <p>Bitmap & Vector art</p>
@@ -161,27 +161,27 @@ include("../includes/header.php");
 
     <div class="modal-slide">
       <div class="numbertext">1 / 7</div>
-      <img src="../assets/images/the-darkness.webp" alt="An album cover depicting a giant pug towering over a ruined city, a la Godzilla.">
+      <img src="../assets/images/the-darkness.jpg" alt="An album cover depicting a giant pug towering over a ruined city, a la Godzilla.">
     </div>
 
     <div class="modal-slide">
       <div class="numbertext">2 / 7</div>
-      <img src="../assets/images/nordic-spring-02.webp" alt="A poster for a water brand showing a bottle in the foreground with a viking longboat sailing on the sea in the background.">
+      <img src="../assets/images/nordic-spring-02.jpg" alt="A poster for a water brand showing a bottle in the foreground with a viking longboat sailing on the sea in the background.">
     </div>
 
     <div class="modal-slide">
       <div class="numbertext">3 / 7</div>
-      <img src="../assets/images/nordic-spring-01.webp" alt="A poster for a water brand showing a track running race where the lead runner is wearing a horned viking helmet, full braided beard and carrying a wooden shield.">
+      <img src="../assets/images/nordic-spring-02.jpg" alt="A poster for a water brand showing a track running race where the lead runner is wearing a horned viking helmet, full braided beard and carrying a wooden shield.">
     </div>
     
     <div class="modal-slide">
       <div class="numbertext">4 / 7</div>
-      <img src="../assets/images/swatch-poster.webp" alt="A poster for Swatch depicting a giant tentacled sea monster attacking a lighthouse. One of the tentacles is a giant wristwatch.">
+      <img src="../assets/images/swatch-poster.png" alt="A poster for Swatch depicting a giant tentacled sea monster attacking a lighthouse. One of the tentacles is a giant wristwatch.">
     </div>
 
     <div class="modal-slide">
       <div class="numbertext">5 / 7</div>
-      <img src="../assets/images/anti-smoking-trump.webp" alt="An anti-smoking poster showing a horribly ugly man pulling a ridiculous face. In his hand is a cigarette.">
+      <img src="../assets/images/anti-smoking-trump.jpg" alt="An anti-smoking poster showing a horribly ugly man pulling a ridiculous face. In his hand is a cigarette.">
     </div>
 
     <div class="modal-slide">
@@ -191,7 +191,7 @@ include("../includes/header.php");
 
     <div class="modal-slide">
       <div class="numbertext">7 / 7</div>
-      <img src="../assets/images/halifax.webp" alt="A cartoon bearded man holding a riot helmet and a saucepan in a wheat field with a smoking airdropped crate in the background.">
+      <img src="../assets/images/halifax.png" alt="A cartoon bearded man holding a riot helmet and a saucepan in a wheat field with a smoking airdropped crate in the background.">
     </div>
     
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -203,25 +203,25 @@ include("../includes/header.php");
 
     <div class="columns">
         <div class="column">
-        <img class="slide cursor" src="../assets/images/the-darkness.webp" style="width:100%" onclick="currentSlide(1)" alt="The Darkness mock album art">
+        <img class="slide cursor" src="../assets/images/the-darkness.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Darkness mock album art">
         </div>
         <div class="column">
-        <img class="slide cursor" src="../assets/images/nordic-spring-02.webp" style="width:100%" onclick="currentSlide(2)" alt="Fictional water brand, Nordic Spring">
+        <img class="slide cursor" src="../assets/images/nordic-spring-02.jpg" style="width:100%" onclick="currentSlide(2)" alt="Fictional water brand, Nordic Spring">
         </div>
         <div class="column">
-        <img class="slide cursor" src="../assets/images/nordic-spring-01.webp" style="width:100%" onclick="currentSlide(3)" alt="Fictional water brand, Nordic Spring">
+        <img class="slide cursor" src="../assets/images/nordic-spring-02.jpg" style="width:100%" onclick="currentSlide(3)" alt="Fictional water brand, Nordic Spring">
         </div>
         <div class="column">
-        <img class="slide cursor" src="../assets/images/swatch-poster.webp" style="width:100%" onclick="currentSlide(4)" alt="Swatch mock poster">
+        <img class="slide cursor" src="../assets/images/swatch-poster.png" style="width:100%" onclick="currentSlide(4)" alt="Swatch mock poster">
         </div>
         <div class="column">
-        <img class="slide cursor" src="../assets/images/anti-smoking-trump.webp" style="width:100%" onclick="currentSlide(5)" alt="Anti-smoking campaign poster">
+        <img class="slide cursor" src="../assets/images/anti-smoking-trump.jpg" style="width:100%" onclick="currentSlide(5)" alt="Anti-smoking campaign poster">
         </div>
         <div class="column">
         <img class="slide cursor" src="../assets/images/Animation2.0.gif" style="width:100%" onclick="currentSlide(6)" alt="Death & the Dwarf, 2D animation">
         </div>
         <div class="column">
-        <img class="slide cursor" src="../assets/images/halifax.webp" style="width:100%" onclick="currentSlide(7)" alt="Social marketing art for Twitch streamer Halifax">
+        <img class="slide cursor" src="../assets/images/halifax.png" style="width:100%" onclick="currentSlide(7)" alt="Social marketing art for Twitch streamer Halifax">
         </div>
     </div>
   </div>

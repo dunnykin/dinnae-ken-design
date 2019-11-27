@@ -13,7 +13,11 @@ include("../includes/header.php");
 <section class="gamedev-products">
     <div class="product-container first-product">
         <a href="/php/retail-sim.php">
-            <img src="../assets/images/retailsim02.webp" alt="A screenshot shows a 3D stockroom with lots of colourful items filling the many shelves."/>
+            <picture>
+                <source srcset="../assets/images/retailsim02.webp" type="image/webp">
+                <source srcset="../assets/images/retailsim02.PNG" type="image/png"> 
+                <img src="../assets/images/retailsim02.PNG" alt="A screenshot shows a 3D stockroom with lots of colourful items filling the many shelves."/>
+            </picture>
             <div class="product-overlay">
                 <div class="product product-header">
                     <p>PC Game</p>
@@ -36,7 +40,11 @@ include("../includes/header.php");
 
     <div class="product-container">
         <a href="/php/social-menace.php">
-            <img src="../assets/images/socialmenace03.webp" alt="A cartoon village with a cyclops monster in the middle."/>
+            <picture>
+                <source srcset="../assets/images/socialmenace03.webp" type="image/webp">
+                <source srcset="../assets/images/socialmenace03.PNG" type="image/png"> 
+                <img src="../assets/images/socialmenace03.PNG" alt="A cartoon village with a cyclops monster in the middle."/>
+            </picture>
             <div class="product-overlay">
                 <div class="product product-header">
                     <p>Serious PC Game</p>
@@ -59,7 +67,11 @@ include("../includes/header.php");
 
     <div class="product-container">
         <a href="/php/time-flies.php">
-            <img src="../assets/images/timeflies.webp" alt="A cartoon-like scene showing characters frozen in time mid-action."/>
+            <picture>
+                <source srcset="../assets/images/timeflies.webp" type="image/webp">
+                <source srcset="../assets/images/timeflies.png" type="image/png"> 
+                <img src="../assets/images/timeflies.png" alt="A cartoon-like scene showing characters frozen in time mid-action."/>
+            </picture>
             <div class="product-overlay">
                 <div class="product product-header">
                     <p>Game Jam</p>
@@ -83,7 +95,11 @@ include("../includes/header.php");
 
     <div class="product-container">
         <a href="/php/dr-bones.php">
-            <img src="../assets/images/drbones01.webp" alt="An image of a man bisected. One half shows him in his underpants, the other half shows an x-ray view of him with his bones silhouetted."alt="An image of a man bisected. One half shows him in his underpants, the other half shows an x-ray view of him with his bones silhouetted."/>
+            <picture>
+                <source srcset="../assets/images/drbones01.webp" type="image/webp">
+                <source srcset="../assets/images/drbones01.PNG" type="image/png"> 
+                <img src="../assets/images/drbones01.PNG" alt="An image of a man bisected. One half shows him in his underpants, the other half shows an x-ray view of him with his bones silhouetted."alt="An image of a man bisected. One half shows him in his underpants, the other half shows an x-ray view of him with his bones silhouetted."/>
+            </picture>
             <div class="product-overlay">
                 <div class="product product-header">
                     <p>Educational App</p>
@@ -107,7 +123,11 @@ include("../includes/header.php");
 
     <div class="product-container">
         <a href="/php/watch-this-space.php">
-            <img src="../assets/images/watchthisspace-01.webp" alt="A stickman character sat on an armchair between two televisions."/>
+            <picture>
+                <source srcset="../assets/images/watchthisspace-01.webp" type="image/webp">
+                <source srcset="../assets/images/watchthisspace-01.PNG" type="image/png"> 
+                <img src="../assets/images/watchthisspace-01.PNG" alt="A stickman character sat on an armchair between two televisions."/>
+            </picture>
             <div class="product-overlay">
                 <div class="product product-header">
                     <p>Game Jam</p>

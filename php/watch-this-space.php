@@ -4,7 +4,7 @@ $dkName = "Dinnae Ken Games";
 $description = "Dinnae Ken Games developed Watch This Space in Unity during a 48 hour game jam, Moray Game Jam. The game is a typing game based on not beliving everything you see on the news and tv.";
 $keywords = "Unity 3d, first-person, retail sim, game development, Elgin, Moray, Scotland, Dinnae Ken Games";
 $url = "https://www.dinnaeken.co.uk/php/watch-this-space.php";
-$image = "https://www.dinnaeken.co.uk/assets/images/watchthisspace-02.webp";
+$image = "https://www.dinnaeken.co.uk/assets/images/watchthisspace-02.PNG";
 $imageAlt = "A screenshot showing a stickman character sat on a seat between two televisions as various words drop down the screen.";
 include("../includes/header.php");   
 ?>
@@ -12,11 +12,19 @@ include("../includes/header.php");
 
 <section class="showcase">
     <div class="showcase-hero">
-        <img src="../assets/images/watchthisspace.webp" alt="A smiling stickman sits between two televisions as various words drop down the screen."/>
+        <picture>
+            <source srcset="../assets/images/watchthisspace.webp" type="image/webp">
+            <source srcset="../assets/images/watchthisspace.png" type="image/png">
+            <img src="../assets/images/watchthisspace.png" alt="A smiling stickman sits between two televisions as various words drop down the screen."/>
+        </picture>
     </div>
 
     <div class="showcase-img">
-        <img src="../assets/images/watchthisspace-01.webp" alt="Tutorial instructions below the character sat between the televisions."/>
+        <picture>
+            <source srcset="../assets/images/watchthisspace-01.webp" type="image/webp">
+            <source srcset="../assets/images/watchthisspace-01.PNG" type="image/png">
+            <img src="../assets/images/watchthisspace-01.PNG" alt="Tutorial instructions below the character sat between the televisions."/>
+        </picture>
     </div>
     <div class="showcase-text">
         <h2>Game Jam</h2>
@@ -38,14 +46,26 @@ include("../includes/header.php");
         </ul>
     </div>
     <div class="showcase-img">
-        <img src="../assets/images/watchthisspace-tv.webp" alt="A stylised cartoon television with old style wonky antenna."/>
+        <picture>
+            <source srcset="../assets/images/watchthisspace-tv.webp" type="image/webp">
+            <source srcset="../assets/images/watchthisspace-tv.png" type="image/png">
+            <img src="../assets/images/watchthisspace-tv.png" alt="A stylised cartoon television with old style wonky antenna."/>
+        </picture>
     </div>
 
     <div class="showcase-img">
-        <img src="../assets/images/watchthisspace-sprite-sheet.webp" alt="A spritesheet showing the stickman character broken up into composite parts."/>
+        <picture>
+            <source srcset="../assets/images/watchthisspace-sprite-sheet.webp" type="image/webp">
+            <source srcset="../assets/images/watchthisspace-sprite-sheet.png" type="image/png">
+            <img src="../assets/images/watchthisspace-sprite-sheet.png" alt="A spritesheet showing the stickman character broken up into composite parts."/>
+        </picture>
     </div>
     <div class="showcase-img">
-        <img src="../assets/images/watchthisspace-02.webp" alt="An unhappy stickman character cowering in his seat between two televisions."/>
+        <picture>
+            <source srcset="../assets/images/watchthisspace-02.webp" type="image/webp">
+            <source srcset="../assets/images/watchthisspace-02.PNG" type="image/png">
+            <img src="../assets/images/watchthisspace-02.PNG" alt="An unhappy stickman character cowering in his seat between two televisions."/>
+        </picture>
     </div>
      
     <div class="showcase-youtube">

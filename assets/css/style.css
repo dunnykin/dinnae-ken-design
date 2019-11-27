@@ -534,7 +534,6 @@ header {
   left: 0;
   bottom: 0;
   margin: auto;
-  /* background: url("https://i.pinimg.com/564x/6f/5a/b1/6f5ab1b470beeeeaf285bb451c63ac8f.webp"); */
   background-color: var(--color5);
   background-size: cover;
   cursor: pointer;
@@ -933,7 +932,7 @@ header {
     grid-gap: 20px;
 }
 
-.showcase > div > img {
+.showcase img {
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -1073,7 +1072,7 @@ header {
     grid-column: span 6;
 }
 
-.profile-pic > img  {
+.profile-pic img  {
     height: 100%;
     width: 100%;
     object-fit: cover;

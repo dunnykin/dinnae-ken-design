@@ -4,7 +4,7 @@ $dkName = "Dinnae Ken Design";
 $description = "Dinnae Ken Design is an interactive media portfolio for design, 3D and game development based in Moray, Scotland.";
 $keywords = "interactive media, 3d animation, design, game development, Elgin, Moray, Scotland, Dinnae Ken Design, Dinnae Ken Games";
 $url = "https://www.dinnaeken.co.uk/php/about.php";
-$image = "https://www.dinnaeken.co.uk/assets/images/dinnaekengames-header.webp";
+$image = "https://www.dinnaeken.co.uk/assets/images/dinnaekengames-header.png";
 $imageAlt = "Dinnae Ken Design - Design, 3D & Game Development";
 include("../includes/header.php");   
 ?>
@@ -25,7 +25,11 @@ include("../includes/header.php");
     <br>I am an avid PC gamer, so when I’m not developing games I am likely playing them. I also have qualificaitons in acting & performance and have even tried my hand at stand-up comedy, giving me the confidence to perform in front of the camera as well as behind it.</p>
 
     <figure class="profile-pic">
-        <img src="../assets/images/profile-pic.webp" alt="Profile picture of Jamie Morrison, creator behind the Dinnae Ken interactive media brand."/>
+        <picture>
+            <source srcset="../assets/images/profile-pic.webp" type="image/webp">
+            <source srcset="../assets/images/profile-pic.jpg" type="image/jpeg"> 
+            <img src="../assets/images/profile-pic.jpg" alt="Profile picture of Jamie Morrison, creator behind the Dinnae Ken interactive media brand."/>
+        </picture>
         <figcaption>Who's this? Dinnae Ken</figcaption>
     </figure>
 </section>

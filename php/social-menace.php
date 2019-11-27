@@ -4,7 +4,7 @@ $dkName = "Dinnae Ken Games";
 $description = "Dinnae Ken Games is currently developing a 2D serious game named Social Menace, aimed at highlighting the issue of online toxicity and addressing the player's own behaviour online and when using social media.";
 $keywords = "Unity, online toxicity, serious game, game development, Elgin, Moray, Scotland, Dinnae Ken Games";
 $url = "https://www.dinnaeken.co.uk/php/social-menace.php";
-$image = "https://www.dinnaeken.co.uk/assets/images/socialmenace03.webp";
+$image = "https://www.dinnaeken.co.uk/assets/images/socialmenace03.PNG";
 $imageAlt = "A screenshot showing a simple 2D cartoony village with little townsfolk, a strong female character and a cyclops monster.";
 include("../includes/header.php");   
 ?>
@@ -12,11 +12,19 @@ include("../includes/header.php");
 
 <section class="showcase">
     <div class="showcase-hero">
-        <img src="../assets/images/socialmenace03.webp" alt="A screenshot showing a simple 2D cartoony village with little townsfolk, a strong female character and a cyclops monster."/>
+        <picture>
+            <source srcset="../assets/images/socialmenace03.webp" type="image/webp">
+            <source srcset="../assets/images/socialmenace03.PNG" type="image/png"> 
+            <img src="../assets/images/socialmenace03.webp" alt="A screenshot showing a simple 2D cartoony village with little townsfolk, a strong female character and a cyclops monster."/>
+        </picture>
     </div>
 
     <div class="showcase-img socialmenace-img">
-        <img src="../assets/images/socialmenace-onesheet-01.webp" alt="A one-sheet game development document."/>
+        <picture>
+            <source srcset="../assets/images/socialmenace-onesheet-01.webp" type="image/webp">
+            <source srcset="../assets/images/socialmenace-onesheet-01.png" type="image/png"> 
+            <img src="../assets/images/socialmenace-onesheet-01.png" alt="A one-sheet game development document."/>
+        </picture>
     </div>
     <div class="showcase-text socialmenace-text">
         <h2>In Development</h2>

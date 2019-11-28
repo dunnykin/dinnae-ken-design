@@ -24,4 +24,6 @@
             </ul>
         </nav>
     </section>
+    <section class="grid-container">
+    </section>
 </header>

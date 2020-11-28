@@ -266,17 +266,18 @@ include("../includes/header.php");
         </picture>
     </div>
 
+    <!--
     <div class="showcase-youtube">
         <iframe title="Watch Dunnykin on Twitch" class="youtube-desktop" width="560" height="315"
-            src="https://clips.twitch.tv/embed?clip=SolidPrettiestAardvarkPanicBasket&parent=www.twitch.tv/dunnykin" 
+            src="https://clips.twitch.tv/embed?clip=SolidPrettiestAardvarkPanicBasket&parent=https://www.dinnaeken.co.uk" 
             frameborder="0" allowfullscreen="true" scrolling="no"></iframe>
 
         <iframe title="Watch Dunnykin on Twitch" class="youtube-mobile" width="320" height="180" 
-            src="https://clips.twitch.tv/embed?clip=SolidPrettiestAardvarkPanicBasket&parent=www.twitch.tv/dunnykin" 
+            src="https://clips.twitch.tv/embed?clip=SolidPrettiestAardvarkPanicBasket&parent=https://www.dinnaeken.co.uk" 
             frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
             allowfullscreen>
         </iframe>
-    </div>        
+    </div>  -->      
 </section>
 
 <script src="../assets/js/modal-images.js"></script>

@@ -79,6 +79,7 @@ p {
 /*** NAVIGATION ***/
 header {
     background-color: var(--color1);
+    overflow-x: hidden;
 }
 
 .nav-wrapper {
@@ -998,6 +999,10 @@ header {
     grid-row: span 1;
 
     background-color: var(--color5);
+}
+
+.showcase-video {
+    margin: auto;
 }
 
 .showcase-youtube {

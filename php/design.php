@@ -78,7 +78,7 @@ include("../includes/header.php");
     </div>
 
     <div class="product-container design-nordic-wide" onclick="openModal();currentSlide(4)">
-        <img src="../assets/images/nordic-spring-02.jpg" alt="A poster for a water brand showing a track running race where the lead runner is wearing a horned viking helmet, full braided beard and carrying a wooden shield."/>
+        <img src="../assets/images/nordic-spring-01.jpg" alt="A poster for a water brand showing a track running race where the lead runner is wearing a horned viking helmet, full braided beard and carrying a wooden shield."/>
         <div class="product-overlay">
             <div class="product product-header">
                 <p>Bitmap art</p>
@@ -226,6 +226,58 @@ include("../includes/header.php");
     </div>
   </div>
 </div>
+
+<br>
+<hr>
+<br>
+
+<section class="showcase">
+
+    <div class="showcase-img showcase-video">
+        <video width="100%" controls>
+            <source src="../assets/videos/buster-filmgrain-nofilmnoise.webm" type="video/webm">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="showcase-text">
+        <h2>twitch.tv/dunnykin</h2>
+        <hr>
+        <p>This is my <a href="http://twitch.tv/dunnykin">twitch channel</a> where I livestream gameplay whilst interacting with viewers. Unique to my channel, I adapt and edit clips from other streams and showcase them in the "Dunnykin Theatre", a fictional 1920s movie theatre.</p>
+        <br>
+        <p>The vintage movie aesthetic, from the camera filters, the backgrounds, icons and music/sounds were created or sourced by
+        <br>
+        <ul class="showcase-list">
+            <li>Presentation and interaction skills</li>
+            <li>Video editing</li>
+            <li>Special effects</li>
+            <li>Green screen</li>
+        </ul>
+        <hr>
+        <h3>TOOLS:</h3>
+        <ul class="showcase-tools">
+            <li>Streamlabs OBS</li>
+            <li>Adobe Premiere Pro</li>
+            <li>Adobe After Effects</li>
+        </ul>
+    </div>
+    <div class="showcase-img">
+        <picture>
+            <img src="../assets/images/profile-1028-01.png" alt="A cartoon avatar of me"/>
+        </picture>
+    </div>
+
+    <div class="showcase-youtube">
+        <iframe title="Watch Dunnykin on Twitch" class="youtube-desktop" width="560" height="315"
+            src="https://clips.twitch.tv/embed?clip=SolidPrettiestAardvarkPanicBasket&parent=www.twitch.tv/dunnykin" 
+            frameborder="0" allowfullscreen="true" scrolling="no"></iframe>
+
+        <iframe title="Watch Dunnykin on Twitch" class="youtube-mobile" width="320" height="180" 
+            src="https://clips.twitch.tv/embed?clip=SolidPrettiestAardvarkPanicBasket&parent=www.twitch.tv/dunnykin" 
+            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+        </iframe>
+    </div>        
+</section>
 
 <script src="../assets/js/modal-images.js"></script>
 
